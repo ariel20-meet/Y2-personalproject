@@ -15,15 +15,15 @@
 <body>
 <!-- Navigation -->
 <nav class="van">
-  <a onClick="toHome()" class="active">Home</a>
-  <a onClick="toHistory()" class="button bar-item">History</a>
-  <a onClick="toGallery()" class="button bar-item">Gallery</a>
-  <a onClick="toBarsNearMe()" class="button bar-item">Bars Near Me</a>
+  <a href="/" class="active">Home</a>
+  <a href="/history" class="button bar-item">History</a>
+  <a href="/gallery" class="button bar-item">Gallery</a>
+  <a href="/API" class="button bar-item">Bars Near Me</a>
 </nav>
 
  <div>
 	<img class="logo" src="{{ url_for('static', filename='logo.jpg') }}">
-	<a onClick="toHome()" class="active"></a>
+	<a onClick="/" class="active"></a>
  </div>
 
 <div class="content" >
